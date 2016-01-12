@@ -1,0 +1,62 @@
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -- Global Styles --*/
+
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+}
+
+a, a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Georgia", Times, serif;
+  line-height: 1.35;
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+
+/* -- Styles --*/
+
+.main-nav {
+color: black
+}
