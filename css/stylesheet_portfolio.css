@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.picture-banner {
+	margin-top: 45px;
+	width: 100%;
+}
+
+
+
+
+figure.einzel {
+	width:auto;
+  height: auto;
+  float: left;
+}
+figure.einzelrechts {
+	width:auto;
+  height: auto;
+  float: right;
+}
+
+figure img {
+	width: auto;
+  }
+
+figcaption {
+	position: absolute;
+	bottom: 0;
+	width: auto;
+  height: auto;
+	text-align: center;
+  vertical-align: baseline;
+	line-height: 2em;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.gesamt {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+
+.center {
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.portfolio_pics_left {
+  height: auto;
+  width: auto;
+  float: left;
+  margin-left: 5%;
+}
+.portfolio_pics_right {
+  height: auto;
+  width: auto;
+}
+.center > div:hover {
+  z-index: 1;
+}
+.center > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+.nav {
+	position: fixed;
+	top: 0px;
+	background-color: white;
+	height: auto;
+	width: 100%;
+}
+
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.nav li {
+	display: inline;
+	color:black;
+	font-size: 18px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	align-items:baseline;
+}
+.nav a {
+	color:black;
+  font-size: 14px;
+  font-weight: normal;
+  padding-right: 18px;
+  text-transform: uppercase;
+	text-decoration: overline;
+}
+.nav a:hover {
+	color: black;
+	text-decoration: line-through;
+}
+.picture {
+	width: 18px;
+	align-items: center;
+}
