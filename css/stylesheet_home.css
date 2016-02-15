@@ -1,0 +1,62 @@
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+		margin: 0px;
+}
+
+a {
+  color: black;
+}
+
+
+
+
+.picture-banner {
+  display: block;
+  width: 100%;
+}
+
+.logo-box {
+  width: 25%;
+  height: 20%;
+  margin-top: -27%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flocke {
+  width: 10%;
+  height: auto;
+  margin-left: 40%;
+  margin-right: 50%;
+}
+
+.logo-box:hover .flocke {
+  transform: scale(4);
+  transition: .4s transform;
+}
+
+.box{
+  width: 25%;
+  height: 20%;
+  margin-top: -1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  display: inline;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding-right: 3%;
+}
+
+.box a {
+  display: inline;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding-right: 3%;
+  text-decoration: none;
+}

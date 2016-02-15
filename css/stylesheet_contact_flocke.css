@@ -1,0 +1,282 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+	margin: 0px;
+}
+
+a{
+  color: black;
+}
+
+header {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+}
+
+.active a {
+  text-decoration: underline;
+}
+
+.NAVIGATION {
+  width: 55%;
+  height: auto;
+  margin: auto;
+}
+
+.logo {
+  padding-top: 14px;
+  padding-bottom: 10px;
+  float: left;
+	height: 2%;
+  margin-right: 10px;
+}
+
+.main-name {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  float: left;
+  font-weight: bolder;
+}
+
+.main-name a {
+  text-decoration: none;
+}
+
+ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline;
+}
+
+ul {
+  float: right;
+  text-align: right;
+	font-weight: bolder;
+	text-decoration: overline;
+}
+
+ul a {
+  margin-left: 20px;
+}
+
+ul a:hover {
+text-decoration: line-through;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  header {
+      width: calc(100% - 80px);
+      height: 300px;
+      position: inherit;
+  }
+  a {
+    display: block;
+  }
+
+  .main-name {
+    display: none;
+  }
+
+  .main-name1 {
+    display: none;
+  }
+
+  .main-name-mobile {
+    height: 15%;
+  }
+
+  .mobile-nav {
+    display: inline-block;
+    text-align: center;
+  }
+  .desktop-nav {
+    display: none;
+  }
+
+  .main-name,
+  nav {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 200%;
+  }
+
+  nav.mobile-nav a {
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-size: 120%;
+  }
+
+  nav {
+    float: none;
+  }
+}
+
+
+
+.picture-banner {
+  position: fixed;
+  bottom: 0px;
+	width: 100%;
+}
+
+
+.wrapper-text {
+  position: relative;
+  width: 55%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+*:focus {
+    outline: 0;
+}
+
+
+
+.container {
+  width: 50%;
+}
+
+.text {
+  width: 30%;
+  margin-top: 14%;
+  margin-left: 3%;
+}
+
+.text h3 {
+  color: black;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.text p {
+  color: black;
+	line-height: 1.5;
+}
+
+#contact-wrap {
+  font-family: 'Lato', arial;
+  font-size:16px;
+  font-weight:300;
+  width: 60%;
+  color:white;
+	overflow:auto;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-area {
+  margin-left:auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 4%;
+	width: 60%;
+
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 100%;
+  font-family: 'Lato', arial;
+  font-size:14px;
+  font-weight:300;
+  color:black;
+      background-color:transparent;
+      border-top: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-bottom: 1px solid black;
+      border-right: 1px solid transparent;
+
+  margin-bottom:15px;
+}
+
+#contact-area textarea {
+  background-color:transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid black;
+  border-right: 1px solid transparent;
+
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	    background-color:lightgrey;
+      border-top: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-bottom: 1px solid black;
+      border-right: 1px solid transparent;
+
+}
+
+#contact-area input.submit-button {
+  font-family: 'Lato', arial;
+  font-size:12px;
+  font-weight:500;
+  text-transform:uppercase;
+	width: 100px;
+	float: left;
+  background-color:transparent;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+
+  -moz-transition:all 0.1s ease-in-out;
+	-webkit-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+	-ms-transition:all 0.1s ease-in-out;
+	transition:all 0.1s ease-in-out;
+}
+
+#contact-area input.submit-button:hover {
+
+  color:black;
+  background-color:lightgrey;
+
+
+}
+
+
+
+
+::-webkit-input-placeholder {
+  color: black;
+
+  font-size:14px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+
+  font-size:14px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: black;
+
+  font-size:14px;
+}
+
+:-ms-input-placeholder {
+   color: black;
+
+  font-size:14px;
+}

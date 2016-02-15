@@ -1,70 +1,105 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+	margin: 0px;
+}
 
-body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+a{
+  color: black;
+}
+
+header {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: white;
+  position: fixed;
+}
+
+.active a {
+  text-decoration: underline;
+}
+
+.NAVIGATION {
+  width: 55%;
+  height: auto;
+  margin: auto;
+}
+
+.logo {
+  padding-top: 14px;
+  padding-bottom: 10px;
+  float: left;
+	height: 2%;
+  margin-right: 10px;
+}
+
+.main-name {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  float: left;
+  font-weight: bolder;
+}
+
+.main-name a {
+  text-decoration: none;
+}
+
+ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline;
+}
+
+ul {
+  float: right;
+  text-align: right;
+	font-weight: bolder;
+	text-decoration: overline;
+}
+
+ul a {
+  margin-left: 20px;
+}
+
+ul a:hover {
+text-decoration: line-through;
+}
+
+.mobile-nav {
+  display: none;
 }
 
 
 
-blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee;
-}
-blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
-    margin-bottom: 0;
-}
-blockquote footer, blockquote small, blockquote .small {
-    display: block;
-    font-size: 80%;
-    line-height: 1.42857143;
-    color: #999;
-}
-blockquote footer:before, blockquote small:before, blockquote .small:before {
-    content: '\2014 \00A0'}
-.blockquote-reverse, blockquote.pull-right {
-    padding-right: 15px;
-    padding-left: 0;
-    border-right: 5px solid #eee;
-    border-left: 0;
-    text-align: right;
-}
-.blockquote-reverse footer:before, blockquote.pull-right footer:before, .blockquote-reverse small:before, blockquote.pull-right small:before, .blockquote-reverse .small:before, blockquote.pull-right .small:before {
-    content: ''}
-.blockquote-reverse footer:after, blockquote.pull-right footer:after, .blockquote-reverse small:after, blockquote.pull-right small:after, .blockquote-reverse .small:after, blockquote.pull-right .small:after {
-    content: '\00A0 \2014'}
-blockquote:before, blockquote:after {
-    content: ""}
-
-
-
-
-h4 {
-  font-weight: 700;
-  line-height: 1.25;
+.box {
+  width: 100%;
+  height: auto;
 }
 
 
 .picture-banner {
-	margin-top: 45px;
 	width: 100%;
+  z-index: 1;
+}
+
+.wrapper-text {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
 }
 
 .profil {
-	position:relative;
-	height: 190px;
-	margin-left: 24%;
-	margin-top: -4%
+	float: left;
+	height: 200px;
+	width: auto;
+  margin-top: -15%;
 }
 
-
 .einfuehrungstext {
-  position:relative;
+  float: right;
 	height: auto;
-	width: 35%;
-	margin-top: -4%;
-	margin-left: auto;
-	margin-right: 25%;
+	width: 70%;
 }
 
 .einfuehrungstext h1 {
@@ -80,116 +115,124 @@ h4 {
 	line-height: 1.5;
 }
 
+blockquote {
+  display: block;
+		float: left;
+    border-left: 15px solid #eee;
+		width: 100%;
+    height: auto;
+		margin-top: 2%;
+		margin-left: -10%;
+}
+
+blockquote p {
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.picture-banner {
+  padding-top: 5%;
+	width: 100%;
+}
+
+.box1 {
+  position: absolute;
+  width: 100%;
+  margin-top: 35%;
+  height: auto;
+  background-color: lightgrey;
+}
+
+.wrapper-spalte {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .thumbnails {
-	height: 180px;
-	width: 180px;
-}
-
-.Kategorien {
-position:relative;
-height: auto;
-margin-top: 5%;
-margin-right: auto;
-margin-left: auto;
-margin-bottom: auto;
-width: 50%;
-}
-
-
-.col-md-4 {
-    width: 30%;
-		float: right;
-		padding-left: 1%;
-		padding-right: 1%;
-}
-
-.row1 {
-	position:relative;
-	height: auto;
-	margin-top: 5%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: auto;
 	width: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+  margin-top: 15%;
 }
 
-.row2 {
-	position:relative;
-	height: auto;
-	margin-top: 5%;
-	margin-right: auto;
-	margin-left: auto;
-	width: 50%;
+.spalte {
+		display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 6%;
 }
 
-.Kategorien h3 {
+.spalte p {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.spalte h3 {
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
 
-.Kategorien a {
-  color: #00b0ff;
+.spalte p a{
+  text-decoration: none;
 }
 
-.footer {
-	position: static;
-	bottom: 0px;
-	background-color: grey;
-	height: 40px;
-	width: 100%
+.spalte p a:hover{
+  text-decoration: line-through;
 }
 
-.footertext p {
-	color: white;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-}
 
-.container {
-    margin-right: auto;
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+  header {
+      width: calc(100% - 80px);
+      height: auto;
+      position: inherit;
+  }
+
+  .logo {
+    float: none;
+    height: 3%;
+    position: absolute;
     margin-left: auto;
-    width: 60%;
-}
-
-.nav {
-	position: fixed;
-	top: 0px;
-	background-color: white;
-	height: 45px;
-	width: 100%;
-}
-
-.pull-right {
-  float: right;
-}
-.pull-left {
-  float: left;
-}
-.nav li {
-	display: inline;
-	color:black;
-	font-size: 18px;
-	font-weight: bolder;
-	text-transform: uppercase;
-}
-.nav a {
-	color:black;
-  font-size: 14px;
-  font-weight: normal;
-  padding-right: 18px;
-  text-transform: uppercase;
-	text-decoration: overline;
-}
-.nav a:hover {
-	color: black;
-	text-decoration: line-through;
-}
-.picture {
-	width: 18px;
-}
+    margin-right: auto;
+  }
 
 
+  .main-name {
+    display: none;
+  }
 
-  border-bottom: 1px solid #dbdbdb
+  .mobile-nav {
+    display: inline-block;
+    text-align: center;
+  }
+  .desktop-nav {
+    display: none;
+  }
+
+  ul {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  ul.mobile-nav a {
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
+
+
+  ul {
+    float: none;
+  }
+
+}
